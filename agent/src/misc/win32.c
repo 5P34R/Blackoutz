@@ -694,7 +694,7 @@ FUNC BOOL FixRelocTable(
                 //     }
                 //     *RelativeOffset = (INT32)newRelocOffset;
                 //     break;
-                }
+                
                 default:
                     BK_PRINT("[!] Unknown relocation type: %X | Offset: 0x%08X \n", EntryBaseReloc->Type, EntryBaseReloc->Offset);
                     break;
